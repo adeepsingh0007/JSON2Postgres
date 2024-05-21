@@ -12,6 +12,9 @@ This project requires the following two Python scripts to be executed in order:
 `python create_tables.py`</br>
 `python etl.py`
 
+## Dataset
+The dataset used for this project is a subset of the [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/).
+
 ## Python scripts
 
 - create_tables.py: Clean previous schema and creates tables.
