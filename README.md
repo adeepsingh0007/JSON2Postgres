@@ -66,7 +66,7 @@ And below is an example of what a single song file, TRAABJL12903CDCF1A.json, loo
 | SOFNOQK12AB01840FC | Kutt Free (DJ Volume Remix)    | ARNNKDK1187B98BBD5 | -    | 407.37914 |
 | SOFFKZS12AB017F194 | A Higher Place (Album Version) | ARBEBBY1187B9B43DB | 1994 | 236.17261 |
 
-**- artist table**: Contains artist ID, name, location, latitude, and longitude from dataset
+**- artists table**: Contains artist ID, name, location, latitude, and longitude from dataset
 
 | artist_id          | name      | location        | lattitude | longitude |
 |--------------------|-----------|-----------------|-----------|-----------|
