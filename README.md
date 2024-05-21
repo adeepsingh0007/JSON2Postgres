@@ -8,6 +8,7 @@ This project aims to make it easier for TuneWave's analytics team to access data
 
 ## Getting started
 This project requires the following two Python scripts to be executed in order:
+
 `python create_tables.py`</br>
 `python etl.py`
 
