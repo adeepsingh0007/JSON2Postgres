@@ -54,7 +54,7 @@ And below is an example of what a single song file, TRAABJL12903CDCF1A.json, loo
 }
 ```
 
-#### Final tabes
+#### Final tables
 - songs table: Save song ID, title, artist ID, year, and duration from dataset
 
 | song_id            | title                          | artist_id          | year | duration  |
