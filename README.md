@@ -56,14 +56,14 @@ And below is an example of what a single song file, TRAABJL12903CDCF1A.json, loo
 ```
 
 #### Final tables
-- songs table: Save song ID, title, artist ID, year, and duration from dataset
+- songs table: Contains song ID, title, artist ID, year, and duration from dataset
 
 | song_id            | title                          | artist_id          | year | duration  |
 |--------------------|--------------------------------|--------------------|------|-----------|
 | SOFNOQK12AB01840FC | Kutt Free (DJ Volume Remix)    | ARNNKDK1187B98BBD5 | -    | 407.37914 |
 | SOFFKZS12AB017F194 | A Higher Place (Album Version) | ARBEBBY1187B9B43DB | 1994 | 236.17261 |
 
-- artist table: Save artist ID, name, location, latitude, and longitude from dataset
+- artist table: Contains artist ID, name, location, latitude, and longitude from dataset
 
 | artist_id          | name      | location        | lattitude | longitude |
 |--------------------|-----------|-----------------|-----------|-----------|
@@ -106,7 +106,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 #### Final tables
 
-- time table: Select ts from dataset and save extracted the timestamp, hour, day, week of year, month, year, and weekday from the ts field.
+- time table: Contains the extracted timestamp, hour, day, week of year, month, year, and weekday from the ts field.
 
 | start_time                 | hour | day | week | month | year | weekday |
 |----------------------------|------|-----|------|-------|------|---------|
@@ -114,7 +114,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 | 2018-11-29 00:01:30.796000 | 0    | 29  | 48   | 11    | 2018 | 3       |
 
 
-- users table: Save user ID, first name, last name, gender and level. If duplicated user information is delivered, Update level field.
+- users table: Contains user ID, first name, last name, gender and level. If duplicated user information is delivered, Update level field.
 
 | user_id | first_name | last_name | gender | level |
 |---------|------------|-----------|--------|-------|
@@ -122,7 +122,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 | 52      | Theodore   | Smith     | M      | free  |
 
 
-- songplays table: Save the timestamp, user ID, level, song ID, artist ID, session ID, location, and user agent from dataset. The song ID and artist ID will be retrieved by querying the songs and artists tables to find matches based on song title, artist name, and song duration time.
+- songplays table: Contains the timestamp, user ID, level, song ID, artist ID, session ID, location, and user agent from dataset. The song ID and artist ID is retrieved by querying the songs and artists tables to find matches based on song title, artist name, and song duration time. Since this is a subset of the original dataset, there are records with null song_id and artist_id.
 
 | songplay_id | start_time                 | user_id | level | song_id | artist_id | session_id | location                            | user_agent                                                                                                              |
 |-------------|----------------------------|---------|-------|---------|-----------|------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
