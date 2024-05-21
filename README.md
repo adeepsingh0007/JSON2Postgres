@@ -107,10 +107,10 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 - time table: Select ts from dataset and save extracted the timestamp, hour, day, week of year, month, year, and weekday from the ts field.
 
-songplay_id   | start_time                 | hour | day | week | month | year | weekday |
---------------|----------------------------|------|-----|------|-------|------|---------|
-1             | 2018-11-29 00:00:57.796000 | 0    | 29  | 48   | 11    | 2018 | 3       |
-2             | 2018-11-29 00:01:30.796000 | 0    | 29  | 48   | 11    | 2018 | 3       |
+| start_time                 | hour | day | week | month | year | weekday |
+|----------------------------|------|-----|------|-------|------|---------|
+| 2018-11-29 00:00:57.796000 | 0    | 29  | 48   | 11    | 2018 | 3       |
+| 2018-11-29 00:01:30.796000 | 0    | 29  | 48   | 11    | 2018 | 3       |
 
 
 - users table: Save user ID, first name, last name, gender and level. If duplicated user information is delivered, Update level field.
