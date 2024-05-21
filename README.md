@@ -117,7 +117,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 | 2018-11-29 00:01:30.796000 | 0    | 29  | 48   | 11    | 2018 | 3       |
 
 
-**- users table**: Contains user ID, first name, last name, gender and level. If duplicated user information is delivered, Update level field.
+**- users table**: Contains user ID, first name, last name, gender and level.
 
 | user_id | first_name | last_name | gender | level |
 |---------|------------|-----------|--------|-------|
