@@ -7,7 +7,7 @@ The analytics team at TuneWave, a growing startup, seeks to delve into the data 
 This project aims to make it easier for TuneWave's analytics team to access data by developing a Postgres database containing tables with efficient schema design and an ETL pipeline that extracts the relevant data from JSON files and loads it into the Fact and Dimension tables residing in the Postgres database using Python and SQL.
 
 ## Getting started
-
+This project requires the following two Python scripts to be executed in order:
 `python create_tables.py`</br>
 `python etl.py`
 
