@@ -17,9 +17,9 @@ The dataset used for this project is a subset of the [Million Song Dataset](http
 
 ## Python scripts
 
-**- create_tables.py**: Cleans previous schema and creates tables.
-**- sql_queries.py**: Contains all the SQL queries used in the ETL pipeline.
-**- etl.py**: Reads JSON logs and JSON metadata and load the data into generated tables.
+- create_tables.py: Cleans previous schema and creates tables.
+- sql_queries.py: Contains all the SQL queries used in the ETL pipeline.
+- etl.py: Reads JSON logs and JSON metadata and load the data into generated tables.
 
 ## Database Schema
 ![ERD](erd.png)
